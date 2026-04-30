@@ -11,7 +11,6 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Countries countriesPromise={countriesPorise}></Countries>
       </Suspense>
-      <h1>React On the Go..</h1>
     </>
   )
 }
